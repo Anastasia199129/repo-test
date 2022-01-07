@@ -87,7 +87,3 @@ module.exports = {
   TypeBrand,
   DeviceInfo,
 };
-
-// module.exports {
-
-// }
