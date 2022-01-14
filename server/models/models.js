@@ -67,8 +67,8 @@ Device.belongsTo(Brand);
 Device.hasMany(Rating);
 Rating.belongsTo(Device);
 
-Device.hasMany(Brand);
-Brand.belongsTo(Device);
+Device.hasMany(BascetDevice);
+BascetDevice.belongsTo(Device);
 
 Device.hasMany(DeviceInfo);
 DeviceInfo.belongsTo(Device);
@@ -87,7 +87,3 @@ module.exports = {
   TypeBrand,
   DeviceInfo,
 };
-
-// module.exports {
-
-// }
