@@ -5,6 +5,10 @@ const models = require('./models/models');
 const cors = require('cors');
 const router = require('./routes/index');
 
+// const fs = require('fs');
+// const b = fs.readFileSync('./routers/x/templ.html', 'utf8');
+// console.log(b);
+
 const PORT = process.env.PORT || 5000;
 
 const app = express();
